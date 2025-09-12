@@ -1,0 +1,29 @@
+$primary-color: #b598ec;
+$fond-color: #f6f1e7;
+$font-color: #934d91;
+
+@mixin bordure($couleur, $largeur: 1px, $hover-color: darken($couleur, 10%)) {
+    border: $largeur solid $couleur;
+    border-radius: 5px;
+    &:hover {
+        background-color: lighten($hover-color, 20%);
+    }
+}
+
+div {
+    background-color: $fond-color;
+    p {
+        color: $font-color;
+    }
+    :hover{
+        color: $primary-color;
+    }
+}
+
+.button {
+    @include bordure($primary-color);
+}
+
+.card {
+    @include bordure($primary-color, 2px, chartreuse);
+}

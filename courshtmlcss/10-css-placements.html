@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Placements FLEXBOX</title>
+    <style>
+        .container {
+            padding: 1%;
+            background-color: rgb(111, 134, 157);
+            display: flex;
+            justify-content: space-around;
+            flex-direction: column-reverse;
+            /* align-items: flex-start;  */
+            height: 100px;
+        }
+
+        #el1 {
+            background-color: rgb(0, 157, 255);
+        }
+
+        #el2 {
+            background-color: rgb(114, 232, 114);
+        }
+
+        #el3 {
+            background-color: rgb(246, 0, 0);
+        }
+        .navbar {
+            display: flex;
+            /* flex-direction: row-reverse; */
+            justify-content: space-between;
+            align-items: center;
+            background: linear-gradient(90deg, #007cf0 0%, #00dfd8 50%, #ff0080 100%);
+            padding: 10px 30px;
+            margin-bottom: 30px;
+        }
+        .navbar .logo {
+            color: #fff;
+            font-weight: bold;
+            font-size: 1.2em;
+            letter-spacing: 2px;
+        }
+        .navbar ul {
+            display: flex;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        .navbar ul li {
+            margin-left: 20px;
+        }
+        .navbar ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1em;
+            transition: color 0.2s;
+        }
+        .navbar ul li a:hover {
+            color: #00bfff;
+        }
+    </style>
+
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">MaNavbar</div>
+        <ul>
+            <li><a href="#">Accueil</a></li>
+            <li><a href="#">À propos</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <h1>Test Flexbox</h1>
+    <div class="container">
+        <div id="el1" class="element">Item 1</div>
+        <div id="el2" class="element">Item 2</div>
+        <div id="el3" class="element">Item 3</div>
+    </div>
+</body>
+
+</html>

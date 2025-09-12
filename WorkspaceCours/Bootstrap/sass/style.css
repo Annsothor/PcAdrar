@@ -1,0 +1,25 @@
+div {
+  background-color: #f6f1e7;
+}
+div p {
+  color: #934d91;
+}
+div :hover {
+  color: #b598ec;
+}
+
+.button {
+  border: 1px solid #b598ec;
+  border-radius: 5px;
+}
+.button:hover {
+  background-color: rgb(211.9344262295, 195.0573770492, 243.9426229508);
+}
+
+.card {
+  border: 2px solid #b598ec;
+  border-radius: 5px;
+}
+.card:hover {
+  background-color: rgb(178.2, 255, 102);
+}/*# sourceMappingURL=style.css.map */
