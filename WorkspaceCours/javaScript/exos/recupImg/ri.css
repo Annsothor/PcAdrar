@@ -1,0 +1,14 @@
+h1 {
+    display: none;
+    color: blue;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+p {
+    color: green;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}

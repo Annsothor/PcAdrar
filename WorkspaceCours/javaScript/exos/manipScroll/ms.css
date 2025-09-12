@@ -1,0 +1,44 @@
+body{
+    min-height: 5000px;
+}
+
+.boxBar{
+    width: 100%;
+    border: 5px solid chartreuse;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.bar{
+    height: 20px;
+    background: chartreuse;
+    width: 0%;
+}
+
+h1{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 50px;
+    color: crimson;
+}
+
+p{
+    width: 50%;
+    margin: auto;
+    font-size: 20px;
+    line-height: 1.5;
+    color: darkblue;
+}
+#stop{
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    padding: 10px 20px;
+    font-size: 20px;
+    background: crimson;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
