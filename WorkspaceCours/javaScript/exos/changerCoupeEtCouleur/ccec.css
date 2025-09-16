@@ -1,0 +1,68 @@
+.container {
+    display: flex;
+    border: solid 2px black;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: #dde2e6;
+    gap: 100px;
+    box-shadow: #3C3C3B 10px 10px 20px;
+}
+
+.hairAndHead {
+    display: flex;
+    align-items: center;   
+}
+
+.hairColor button {
+    background-color: #f0f0f0;
+    border: transparent;
+    padding: 30px 30px;
+    margin: 15px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#changeHairLeft {
+    cursor: pointer;
+}
+
+#changeHairRight {
+    cursor: pointer;
+
+}
+
+#changeHairLeft, #changeHairRight {
+    color: #00A19A;
+    /* background-color: #dde2e6; */
+}
+
+.dontClickAgain {
+    /* background-color: #f0f0f0;*/
+    border-style: 2px solid;
+    border-radius: 5px;
+    border-color: #3C3C3B; 
+    background-color: chartreuse;
+}
+
+#head {
+    position: absolute;
+    z-index: 0;
+}
+
+#hair {
+    position: relative;
+    z-index: 1;
+}
+
+#blackHair {
+    background-color: #3C3C3B;
+}
+
+#blondHair {
+    background-color: #F9B233;
+}
+
+#blueHair {
+    background-color: #00A19A;
+}
