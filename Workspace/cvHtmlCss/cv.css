@@ -42,6 +42,11 @@ body {
   padding-left: 1.25em; /* 20px */
 }
 
+.info a {
+    color: #ff4b01;
+    text-decoration: none;
+}
+
 /* Colonne droite */
 .right-column {
   padding: 1.25em; /* 20px */
@@ -78,8 +83,13 @@ body {
   border-radius: 50%;
   object-fit: cover;
   border: 0.1875em solid #faa000; /* 3px */
+  transition: transform 0.3s ease-in-out; /* durée + easing */
 }
 
+.header img:hover{
+    transform: scale(150%);
+    animation: ease-in;
+}
 .about {
   background: #faa000;
   padding: 0.9375em; /* 15px */
